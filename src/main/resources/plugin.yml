@@ -1,0 +1,14 @@
+name: CustomFeaturesPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+api-version: "1.20"
+commands:
+  customfeature:
+    description: Manage custom features
+    usage: /customfeature <add|remove|list> [featureName]
+    permission: customfeatures.admin
+permissions:
+  customfeatures.admin:
+    description: Allows managing custom features
+    default: op
